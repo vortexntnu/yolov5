@@ -1,0 +1,14 @@
+path: ../../../dataset_yolo
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['bottle', 'charger']
+
+roboflow:
+  workspace: vortex-hoe5u
+  project: fun-3pdkm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vortex-hoe5u/fun-3pdkm/dataset/1
